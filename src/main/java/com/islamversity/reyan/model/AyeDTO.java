@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Aye {
+public class AyeDTO {
     Integer index;
     String text;
     String bismillah;

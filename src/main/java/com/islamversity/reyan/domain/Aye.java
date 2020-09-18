@@ -11,12 +11,13 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Builder
 public class Aye {
     @Id
-    Integer index;
+    String index;
 
     String text;
 
     String bismillah;
 
-    @DBRef
-    Surah surah;
+    Integer surahIndex;
+
+
 }

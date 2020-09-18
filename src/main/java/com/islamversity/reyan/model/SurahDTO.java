@@ -9,9 +9,9 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Surah {
+public class SurahDTO {
     Integer index;
     String name;
-    List<Aye> aya;
+    List<AyeDTO> aya;
 
 }
